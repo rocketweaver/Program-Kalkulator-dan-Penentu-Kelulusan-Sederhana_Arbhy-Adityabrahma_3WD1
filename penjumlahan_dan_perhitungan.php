@@ -70,7 +70,7 @@
 <body>
     <div class="form-aritmatika">
         <h1>Operasi Aritmatika</h1>
-        <form action="penjumlahan.php" method="post">
+        <form action="penjumlahan_dan_perhitungan.php" method="post">
             <input type="text" name="angka1" id="angka1" placeholder="Angka ke-1">
             <select id="operasi" name="operasi">
                 <option value="pilih_operasi" selected="true" disabled>Pilih Operasi</option>
@@ -108,7 +108,7 @@
                 }
 
                 // Display the submitted data
-                echo "<p>Hasil: <b>" . $hasil . "</b></p>";
+                echo "<p>Hasil $operasi: <b>" . $hasil . "</b></p>";
             }
         ?>
     </div>
